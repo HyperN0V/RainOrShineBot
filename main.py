@@ -39,6 +39,7 @@ async def weather(ctx: commands.Context, *, city):
 
     await ctx.send(embed=embed)
     
+"""Work In Progress
 @bot.command()
 async def forecast(ctx: commands.Context, *, city, days):
   days = 3
@@ -66,5 +67,6 @@ async def forecast(ctx: commands.Context, *, city, days):
     embed.set_thumbnail(url=image_url)
 
     await ctx.send(embed=embed)
+"""
 
 bot.run(os.environ['TOKEN'])
